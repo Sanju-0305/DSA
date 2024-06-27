@@ -2,11 +2,12 @@ package dsa.TwoPointers;
 
 import java.security.DomainCombiner;
 import java.util.HashMap;
-
+/*Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+You may assume that each input would have exactly one solution, and you may not use the same element twice.*/
 public class TwoSum {
 	
 	public static void main(String args[]){
-		int[] intArray = new int[]{ 4,2,3,4,5,1,7,8,1,10 };
+		int[] intArray = new int[]{ 4,2,1,4,5,1,7,8,1,10 };
 		int[] finalsum = twoSum(intArray,2);
 		for(int sum:finalsum) {
 			System.out.println(sum);
